@@ -1,0 +1,27 @@
+{
+  "_note": "Tiny illustrative dataset for exercising the pipeline. Not authoritative chemistry data.",
+  "compounds": [
+    {"cid": 1183, "name": "vanillin", "descriptors": ["vanilla", "sweet", "creamy"]},
+    {"cid": 22311, "name": "limonene", "descriptors": ["citrus", "fresh"]},
+    {"cid": 6549, "name": "linalool", "descriptors": ["floral", "citrus", "woody"]},
+    {"cid": 19309, "name": "furaneol", "descriptors": ["caramel", "sweet", "fruity"]},
+    {"cid": 7762, "name": "ethyl butyrate", "descriptors": ["fruity", "pineapple"]},
+    {"cid": 3314, "name": "eugenol", "descriptors": ["clove", "spicy", "warm"]},
+    {"cid": 5281515, "name": "caryophyllene", "descriptors": ["woody", "spicy", "pepper"]},
+    {"cid": 650, "name": "diacetyl", "descriptors": ["buttery", "creamy"]},
+    {"cid": 264, "name": "butyric acid", "descriptors": ["cheesy", "rancid"]},
+    {"cid": 5281168, "name": "cis-3-hexenal", "descriptors": ["green", "grassy"]}
+  ],
+  "ingredients": [
+    {"id": "strawberry", "name": "Strawberry", "category": "fruit", "compounds": [19309, 7762, 6549, 5281168, 264]},
+    {"id": "pineapple", "name": "Pineapple", "category": "fruit", "compounds": [19309, 7762, 22311]},
+    {"id": "tomato", "name": "Tomato", "category": "vegetable", "compounds": [19309, 5281168, 6549]},
+    {"id": "basil", "name": "Basil", "category": "herb", "compounds": [6549, 3314, 5281515, 22311]},
+    {"id": "clove", "name": "Clove", "category": "spice", "compounds": [3314, 5281515, 1183]},
+    {"id": "black-pepper", "name": "Black pepper", "category": "spice", "aliases": ["pepper"], "compounds": [5281515, 22311, 6549]},
+    {"id": "lemon", "name": "Lemon", "category": "fruit", "compounds": [22311, 6549]},
+    {"id": "vanilla", "name": "Vanilla", "category": "spice", "compounds": [1183, 3314]},
+    {"id": "butter", "name": "Butter", "category": "dairy", "compounds": [650, 264]},
+    {"id": "parmesan", "name": "Parmesan", "category": "dairy", "compounds": [264, 650, 19309]}
+  ]
+}

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+.next/
+out/
+
+# Env
+.env
+.env.local
+
+# Data: raw snapshots are downloaded, not committed
+data/raw/*
+!data/raw/.gitkeep
+
+# Neo4j volumes
+neo4j/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
